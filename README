@@ -1,0 +1,9 @@
+This python code is split into three files:
+
+1. NNCancellation.py: This file loads the measured testbed data and performs non-linear cancellation using the neural network based method proposed in [1]. It also plots the PSDs of the resulting signals as well as the cancellation performance.
+
+2. polynomialCancellation.py: This file loads the measured testbed data and performs non-linear cancellation using the baseline polynomial model. It also plots the PSDs of the resulting signals as well as the cancellation performance.
+
+3. fullduplex.py: This file contains all the helper functions that are required to do linear cancellation and non-linear cancellation using the baseline polynomial model and it is imported in both NNCancellation.py and polynomialCancellation.py.
+
+[1] A. Balatsoukas-Stimming, "Non-linear digital self-interference cancellation for in-band full-duplex radios using neural networks," in IEEE International Workshop on Signal Processing Advances in Wireless Communications (SPAWC), Jun. 2018

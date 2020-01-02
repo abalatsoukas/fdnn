@@ -1,4 +1,5 @@
 # Description
+
 The Python code in this repository implements the neural network based non-linear self-interference cancellation method desribed in [1], as well as a baseline polynomial non-linear self-interference canellation method for comparison purposes. The ZIP file also contains the measurements from a full-duplex testbed that are used as a dataset. A working installation of Keras is required to run the code. The default values in the code exactly reproduce (up to the randomness of the mini-batch learning procedure for the neural network) the results in [1].
 
 This python code is split into three files:
